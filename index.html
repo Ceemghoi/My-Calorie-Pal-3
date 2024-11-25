@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fitness Pal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Fitness Pal</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="loginLink">Login</a></li>
+                <li><a href="#" id="registerLink">Register</a></li>
+                <li><a href="#" id="aboutLink">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="loginSection">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <section id="registerSection" style="display: block;">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <label for="newUsername">Username:</label>
+                <input type="text" id="newUsername" required>
+
+                <label for="newPassword">Password:</label>
+                <input type="password" id="newPassword" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section id="aboutSection" style="display:contents;">
+            <h2>About My Fitness Pal</h2>
+            <p>My Fitness Pal is a comprehensive fitness tracking application that helps you monitor your calorie intake and physical activities. With our user-friendly interface, you can easily log your meals and workouts, set calorie goals, and track your progress towards a healthier lifestyle.</p>
+
+            <h3>Key Features</h3>
+            <ul>
+                <li>Log your meals and track calorie intake</li>
+                <li>Set daily calorie goals</li>
+                <li>Log your physical activities and track calories burned</li>
+                <li>View your meal and activity history</li>
+                <li>Integrate with the Nutritionix API for accurate calorie information</li>
+            </ul>
+
+            <p>Join us today and take control of your fitness journey!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Fitness Pal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
